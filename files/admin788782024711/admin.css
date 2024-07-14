@@ -1,0 +1,262 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    font-size: 36px;
+}
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo{
+    margin-top: 57px;
+}
+
+.actualizacionve{
+    background: #ce8b11;
+    width: 55%;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 35px;
+    min-height: 300px;
+    height: 800px;
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    left: 540px;
+    top: 100px;
+    display: none;
+    
+}
+
+.actualizacionvei input{
+    width: 74%;
+    height: 20px;
+}
+
+
+.novedadesactu{
+    height: 200px;
+    width: 850px;
+
+}
+
+.fechadelanzamiento{
+    width: 125px;
+}
+
+.btn_submit_abririncidencia input{
+
+    background: #c5aa22;
+
+    color: black;
+
+}
+
+.btn_submit_abririncidencia input{
+
+    background: #ccb11a;
+
+    color: black;
+
+}
+
+input{
+    width: 74%;
+    height: 20px;
+
+}
+
+.formautenticacion input{
+
+    width: 74%;
+
+    height: 20px;
+
+}
+
+
+.IncidenciasAbiertasDIV{
+
+    width: 70%;
+
+    height: 530px;
+
+    border: 1px solid #000;
+
+    background: rgb(0, 0, 0,0.3);
+
+}
+
+.imgcerrar{
+    float: right
+ }
+
+
+
+
+
+ .cuadrado{
+    padding:20px;
+    margin:10px;
+    background-color: transparent;
+    border: solid 1px red;
+    color: white;
+    }
+
+
+.btn-outline-success{
+    margin: 2%;
+}
+
+/*BOTONES PERSONALIZADOS COLORES*/
+.btn {
+    padding: 1.1em 2em;
+    background: none;
+    border: 2px solid #fff;
+    font-size: 15px;
+    color: #131313;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 12px;
+    background-color: #ecd448;
+    font-weight: bolder;
+    box-shadow: 0 2px 0 2px #000;
+   }
+   
+   .btn:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 120%;
+    background-color: #ff6700;
+    top: 50%;
+    transform: skewX(30deg) translate(-150%, -50%);
+    transition: all 0.5s;
+   }
+   
+   .btn:hover {
+    background-color: #4cc9f0;
+    color: #fff;
+    box-shadow: 0 2px 0 2px #0d3b66;
+   }
+   
+   .btn:hover::before {
+    transform: skewX(30deg) translate(150%, -50%);
+    transition-delay: 0.1s;
+   }
+   
+   .btn:active {
+    transform: scale(0.9);
+   }
+
+   /*TAREAS PENDIENTES*/
+   .right{
+    float: right;
+    text-align: right;
+    width: -50%;
+    height: -50%;
+}
+#h2{
+    float: left;
+}
+   
+
+
+
+/*NUEVA NOTICIA ESTILOS*/
+
+.noticiave{
+    background: #0977b7;
+    width: 55%;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 35px;
+    min-height: 300px;
+    height: 1000px;
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    left: 540px;
+    top: 100px;
+    display: none;
+    
+}
+
+.noticiavei input{
+    width: 74%;
+    height: 20px;
+}
+
+
+.novedadesactu{
+    height: 200px;
+    width: 850px;
+
+}
+
+
+
+
+/*TAMAÑO PARA MÓVIL*/
+@media screen and (max-width:800px){
+    .actualizacionve{
+        height: 850px;
+        right: 200px; 
+        left: 50px;
+        top: 0px;
+    }
+
+    textarea{
+        height: 200px;
+        width: 200px;
+    
+    }
+
+    .novedadesactu{
+        height: 200px;
+        width: 200px;
+    }
+
+    /*NUEVA TAREA ESTILOS*/
+
+.tareave{
+    width: 200px;
+    height: 500px;
+    right: 500px;
+    left: 50px;
+    top: 40px;
+    
+    
+}
+}
+
+
+/*BOTONES ENTRAR*/
+
+.entrar{
+    width: 100px;
+    height: 50px;
+    border: #000 1px solid;
+    color: #000;
+}
+
+.entrar:hover{
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+}

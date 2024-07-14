@@ -1,0 +1,204 @@
+.textemergencias{
+    margin: none;
+    padding: none;
+}
+*{
+    justify-content: center;
+    align-items: center;
+    display: flexbox;
+    font-family: Arial, Verdana;
+    
+}
+body{
+ background-color:#2e2e2e; 
+ font-family: Arial, Helvetica, sans-serif;  
+}
+a{
+    text-decoration: none;
+}
+
+h1{
+ font-family: Arial, Helvetica, sans-serif;
+    font-size: 240%;
+}
+h2{
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 80%;
+}
+textarea{
+    height: 200px;
+    width: 850px;
+}
+.emergenciasve{
+    background: #818181;
+    width: 50%;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 35px;
+    min-height: 300px;
+    height: 635px;
+    border: 2px solid black;
+    position: absolute;
+    left: 20%;
+    top: 4%;
+    bottom: 4%;
+    display: none;
+    float: left
+}
+button {
+    background: #ffffff;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.emergenciasvei input{
+    width: 74%;
+    height: 20px;
+}
+.datosrequirente input{
+    width: 74%;
+    height: 20px;
+}
+textarea{
+    height: 100px;
+}
+.btn_submit_abririncidencia input{
+    background: #c5aa22;
+    color: rgb(255, 255, 255);
+}
+.btn_submit_abririncidencia input{
+    background: #ccb11a;
+    color: rgb(255, 255, 255);
+}
+input{
+    width: 74%;
+    height: 20px;
+}
+.formautenticacion input{
+    width: 74%;
+    height: 20px;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+.novedadesabiertas{
+    width: 70%;
+    height: 530px;
+    border: 1px solid #3A89B2;
+    background: rgb(0, 0, 0,0.1);
+}
+.EstadoIncidencia{
+    align-items: center;
+}
+.UnidadesDIV{
+    width: 55%;
+    height: 400px;
+    border: 1px solid #000;
+}
+
+
+.gteX{
+    float: right
+ }
+
+
+ .cuadrado{
+    padding:20px;
+    margin:10px;
+    background-color: transparent;
+    border: solid 1px red;
+    color: white;
+    }
+
+
+.btn-outline-success{
+    margin: 2%;
+}
+
+
+
+
+.menu{
+    list-style: none;
+    padding: 5px;
+    background: rgb(100, 98, 93);
+    width: 95%;
+    margin: auto;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif
+
+
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: block;
+
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu  li a:hover{
+    background: rgb(58, 57, 57);
+    
+    font-size: 16px;
+}
+
+ .menu ul  li a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background: rgb(138, 130, 130);
+    height: 5px;
+    top:0;
+    position: absolute;
+    transition: width 0.1s;
+  }
+  
+ .menu ul  li a:hover::before {
+    width: 100%;
+}
+
+.title{
+    padding: 20px;
+    float: left;
+    color: #fbff00;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.boton{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border: 2px solid #7D6608 ;
+  }
+  .boton:hover{
+    color: #077a71;
+    background-color: #ffffff;
+  }
+
+  .botonvolver{
+    width: 100px;
+    height: 18px;
+    border: 1px solid #ffffff;
+    background: rgb(0, 0, 0,0.1);
+  }
+
